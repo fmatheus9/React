@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Produto 1",
+      "description": "Descrição do produto 1",
+      "price": 100,
+      "quantity": 10
+    },
+    {
+      "id": "437b",
+      "name": "BULACHA",
+      "description": "DE MORANGO",
+      "price": "20",
+      "quantity": "2"
+    }
+  ]
+}
