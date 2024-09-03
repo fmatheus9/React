@@ -1,18 +1,20 @@
 {
-  "products": [
+  "Books": [
     {
-      "id": "1",
-      "name": "Produto 1",
-      "description": "Descrição do produto 1",
-      "price": 100,
-      "quantity": 10
+      "id": "f4ac",
+      "titulo": "The Hitchhiker's Guide to the Galaxy",
+      "autor": " Douglas Adams",
+      "ano": 1979,
+      "genero": "Fantasia",
+      "numeroPaginas": 208
     },
     {
-      "id": "437b",
-      "name": "BULACHA",
-      "description": "DE MORANGO",
-      "price": "20",
-      "quantity": "2"
+      "id": "c68f",
+      "titulo": "The song of ice and fire",
+      "autor": " George R. R. Martin",
+      "ano": 2011,
+      "genero": "Fantasia",
+      "numeroPaginas": 743
     }
   ]
 }
