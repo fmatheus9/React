@@ -39,8 +39,6 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  border: 3px solid black;
-  border-radius: 10px;
 }
 
 h1 {
