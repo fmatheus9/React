@@ -43,14 +43,14 @@ bash scripts/build.sh
 -python3 src/main.py
 
 **Teste paralelo (4 processos)**
--bash scripts/run_local.sh
+- bash scripts/run_local.sh
 
 **Perfilamento completo**
--bash scripts/profile.sh
+- bash scripts/profile.sh
 
 ### 4. Geração de dados de teste
 **Dataset básico**
--python3 data_sample/gerador_dados.py --tamanho 1000000 --salvar
+- python3 data_sample/gerador_dados.py --tamanho 1000000 --salvar
 
 **Dataset completo**
--python3 data_sample/gerador_dados.py --dataset-completo
+- python3 data_sample/gerador_dados.py --dataset-completo
