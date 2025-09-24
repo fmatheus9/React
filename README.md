@@ -39,30 +39,18 @@ cd projeto-hpc
 bash scripts/build.sh
 
 ### 3. Execução local
-Teste serial
-    python3 src/main.py
+**Teste serial**
+-python3 src/main.py
 
-Teste paralelo (4 processos)
-    bash scripts/run_local.sh
+**Teste paralelo (4 processos)**
+-bash scripts/run_local.sh
 
-Perfilamento completo
-    bash scripts/profile.sh
+**Perfilamento completo**
+-bash scripts/profile.sh
 
 ### 4. Geração de dados de teste
-Dataset básico
-    python3 data_sample/gerador_dados.py --tamanho 1000000 --salvar
+**Dataset básico**
+-python3 data_sample/gerador_dados.py --tamanho 1000000 --salvar
 
-Dataset completo
-    python3 data_sample/gerador_dados.py --dataset-completo
-
-### 5. Execução no Santos Dumont
-Acesso
-    ssh usuario@sd.supercomputacao.br
-    cd /scratch/$USER/projeto-hpc
-
-Submissão do job
-    sbatch scripts/job_cpu.slurm
-
-Monitoramento
-    squeue -u $USER
-    tail -f results/monte_carlo_pi_*.out
+**Dataset completo**
+-python3 data_sample/gerador_dados.py --dataset-completo
